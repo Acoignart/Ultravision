@@ -62,7 +62,6 @@ p, li, textarea, label, input, select {
 h1 {
    /* Default font, size, and margins */
    font-size: 88px;
-  
    
    
 }
@@ -75,6 +74,61 @@ h2 {
 
 h3 {
   /* Default font, size, and margins */
+  text-align: center;
+  color: #231f20;
+  font-size: 40px;
+}
+
+.colonnes{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.bloc{
+  width: 640px;
+  height: 345px;
+  margin: 34px 31px 30px 0;
+  padding: 50px;
+}
+
+.bold{
+  font-weight: 700;
+}
+
+.subtitle1{
+  font-size: 24px;
+  text-align: center;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.subtitle2{
+  font-size: 32px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.para1{
+  font-size: 16px;
+  text-align: justify;
+}
+
+.para2{
+  font-size: 24px;
+  text-align: justify;
+  color: #ffffff;
+}
+.ordinateur-1 {
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  mix-blend-mode: darken;
+}
+
+.bloc-image1{
+background-color: url(../img/bg-yellow.png);
+text-align: center;
 }
 
 h4 {
