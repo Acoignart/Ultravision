@@ -79,56 +79,128 @@ h3 {
   font-size: 40px;
 }
 
+.justify {
+  text-align: justify;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.white {
+  color:white;
+}
+
 .colonnes{
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
 }
 
+#wrapper {
+  max-width:1440px;
+  margin:auto;
+}
+
 .bloc{
-  width: 640px;
-  height: 345px;
-  margin: 34px 31px 30px 0;
-  padding: 50px;
+  padding:48px;
+  flex: 1 1;
 }
 
 .bold{
   font-weight: 700;
 }
 
+.light{
+  font-weight: 300;
+}
+
 .subtitle1{
   font-size: 24px;
-  text-align: center;
-  margin-top: 64px;
-  margin-bottom: 64px;
 }
 
 .subtitle2{
   font-size: 32px;
-  text-align: center;
   color: #ffffff;
 }
 
 .para1{
   font-size: 16px;
-  text-align: justify;
 }
 
 .para2{
   font-size: 24px;
-  text-align: justify;
   color: #ffffff;
 }
 .ordinateur-1 {
   object-fit: contain;
   display: block;
   margin-left: auto;
-  mix-blend-mode: darken;
 }
 
-.bloc-image1{
-background-color: url(../img/bg-yellow.png);
-text-align: center;
+.bloc.image1 {
+    background-image: url("../img/bg-yellow.png");
+    background-repeat: repeat-x;
+}
+
+.bloc.image2 {
+  background-image: url("../img/bg-orange.png");
+  background-repeat: repeat-x;
+}
+
+.colonnes.red {
+  background-image: url("../img/bg-red.png");
+  background-repeat: repeat-x;
+}
+
+.colonnes.blue {
+  background-image: url("../img/bg-blue.png");
+  background-repeat: repeat-x;
+}
+
+.colonnes.purple {
+  background-image: url("../img/bg-violet.png");
+  background-repeat: repeat-x;
+}
+
+.wrapper-button {
+  margin: 30px 0;
+}
+
+a.button {
+  border-radius:15px;
+  border: solid 4px;
+  padding:10px 36px;
+  text-decoration: none;
+  display: inline-block;
+  width: 185px;
+}
+
+.button.yellow {
+  color:#fcce00;
+  border-color:#fcce00;
+}
+
+.button.orange {
+  color:#ff6b00;
+  border-color:#ff6b00;
+}
+
+.button.white {
+  color:#ffffff;
+  border-color:#ffffff;
+}
+
+img {
+  mix-blend-mode: darken;
 }
 
 h4 {
