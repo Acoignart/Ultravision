@@ -99,6 +99,15 @@ h3 {
   color:white;
 }
 
+.orange {
+  color:#ff6b00;
+}
+
+.yellow {
+  color:#fcce00;
+}
+
+
 .colonnes{
   display: flex;
   justify-content: space-around;
@@ -199,8 +208,87 @@ a.button {
   border-color:#ffffff;
 }
 
-img {
+.colonnes img {
   mix-blend-mode: darken;
+}
+
+.container .row {
+  display: flex;
+  justify-content: space-around;
+  margin-top:32px;
+}
+
+.container .row-wrapper {
+  position: relative;
+  text-align: center;
+}
+
+
+.container .row-wrapper:hover img{
+  opacity: 0.2;
+  transition: .3s ease;
+}
+
+.container .row-wrapper:hover .overlay{
+  display: block;
+}
+
+.bgblack {
+  background-color: #231f20;
+  padding: 20px 0 600px 0;
+  margin: 20px 0;
+}
+
+.container .row .overlay {
+  position:absolute;
+  width: 100%;
+  padding:16px;
+  top:0;
+  display: none;
+}
+
+.container .row .overlay p, .container .row .overlay span {
+  font-weight: 200;
+}
+
+.container .row h4 {
+  font-size: 32px;
+  margin:10px 0 32px 0;
+}
+
+form {
+  display: flex;
+  justify-content: space-around;
+  height: 212px;
+  max-width: 920px;
+  margin: auto;
+}
+
+form label {
+  font-size: 16px;
+  font-weight: 200;
+  display: block;
+  margin-top: 5px;
+}
+
+form .form-left {
+  width:270px;
+}
+
+form .form-right {
+  width:560px;
+}
+
+form input, form select {
+  width:100%;
+  height:38px;
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+form textarea {
+  width: 100%;
+  border-radius: 8px;
 }
 
 h4 {
